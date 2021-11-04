@@ -61,7 +61,9 @@ The code has two files named: `GeoTiff_Bounds_csv.ipynb` and `Location_to_3D`.
 Sample visuals of some houses here :
 
 ![groept1](groept1.png)
+
 ![Leuven Library](Leuven Library.png)
+
 ![Sint-Maartensdal](Sint-Maartensdal.png)
 
 ## Validation
