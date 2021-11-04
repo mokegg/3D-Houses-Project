@@ -62,12 +62,12 @@ Sample visuals of some houses here :
 
 ![groept1](groept1.png)
 
-![Leuven Library](Leuven Library.png)
+![Leuven_Library](Leuven_Library.png)
 
 ![Sint-Maartensdal](Sint-Maartensdal.png)
 
 ## Validation
- The Leuven Library tower located at _Monseigneur Ladeuzeplein 21, 3000 Leuven_ was finalised in 1928 wa built to replace an earlier historic library that was destroyed during the first world war. According to the [Leuven libraries website](https://bib.kuleuven.be/english/about/hIistory-tourism), its height is 80 m. Th height of the model is 78.39 m. The error margin is about 2m.
+ The Leuven Library tower located at _Monseigneur Ladeuzeplein 21, 3000 Leuven_ , finalised in 1928 was built to replace an earlier historic library that was destroyed during the first world war. According to the [Leuven libraries website](https://bib.kuleuven.be/english/about/hIistory-tourism), its height is 80 m. Th height of the model is 78.39 m. The error margin is about 2m.
 
 ## Further Development
 The nice to have features are not yet implemented.
