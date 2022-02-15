@@ -114,14 +114,14 @@ import rioxarray as rxr
 geometries = [{'type': 'Polygon','coordinates': [pointList]}] # the shape of the polygon
 
 # Open the DSM and DTM Geotiff images corresponding to the area of interest
-DSM = rxr.open_rasterio(f'zip+https://downloadagiv.blob.core.windows.net/dhm-vlaanderen-ii-dsm-raster-1m/DHMVIIDSMRAS1m_k{i}.zip!/GeoTIFF/DHMVIIDSMRAS1m_k{i}.tif', masked=True)
-#DSM = rxr.open_rasterio('Data/DSM_Data/DHMVIIDSMRAS1m_k32.tif', masked=True)
+#DSM = rxr.open_rasterio(f'zip+https://downloadagiv.blob.core.windows.net/dhm-vlaanderen-ii-dsm-raster-1m/DHMVIIDSMRAS1m_k{i}.zip!/GeoTIFF/DHMVIIDSMRAS1m_k{i}.tif', masked=True)
+DSM = rxr.open_rasterio('Data/DSM_Data/DHMVIIDSMRAS1m_k32.tif', masked=True)
 # Clip the DSM and DTM Geotiff images with the plygon
 clipped_DSM = DSM.rio.clip(geometries, from_disk = True)
 
 
-DTM = rxr.open_rasterio(f'zip+https://downloadagiv.blob.core.windows.net/dhm-vlaanderen-ii-dtm-raster-1m/DHMVIIDTMRAS1m_k{i}.zip!/GeoTIFF/DHMVIIDTMRAS1m_k{i}.tif', masked=True)
-#DTM = rxr.open_rasterio('Data/DTM_Data/DHMVIIDTMRAS1m_k32.tif', masked=True)
+#DTM = rxr.open_rasterio(f'zip+https://downloadagiv.blob.core.windows.net/dhm-vlaanderen-ii-dtm-raster-1m/DHMVIIDTMRAS1m_k{i}.zip!/GeoTIFF/DHMVIIDTMRAS1m_k{i}.tif', masked=True)
+DTM = rxr.open_rasterio('Data/DTM_Data/DHMVIIDTMRAS1m_k32.tif', masked=True)
 
 clipped_DTM = DTM.rio.clip(geometries, from_disk = True)
  
