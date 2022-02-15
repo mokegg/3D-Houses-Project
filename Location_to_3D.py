@@ -164,12 +164,14 @@ print(f'Complete in {round(finish - start, 2)}, seconds')
 
 
 #import mayavi
-from mayavi import mlab
-mlab.figure(size=(500, 500), bgcolor=(0.16, 0.28, 0.46))
-mlab.mesh(x,y,z) 
-mlab.colorbar(orientation='vertical', title='Height')
-mlab.colorbar.font_size = 8
-mlab.show()
+# =============================================================================
+# from mayavi import mlab
+# mlab.figure(size=(500, 500), bgcolor=(0.16, 0.28, 0.46))
+# mlab.mesh(x,y,z) 
+# mlab.colorbar(orientation='vertical', title='Height')
+# mlab.colorbar.font_size = 8
+# mlab.show()
+# =============================================================================
 
 
 # In[18]:
