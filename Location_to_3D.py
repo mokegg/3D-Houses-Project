@@ -180,3 +180,5 @@ fig = plt.figure(figsize=(60, 60))
 fig = go.Figure(data=[go.Surface(z=z)])
 fig.show()
 
+import streamlit as st
+st.plotly_chart(fig)
